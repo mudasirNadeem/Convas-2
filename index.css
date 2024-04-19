@@ -1,5 +1,8 @@
 @import url(https://db.onlinewebfonts.com/c/184a43669964701942e4d9629cf77c2e?family=Swiss721BT-BlackCondensed);
 
+body{
+  overflow-x: hidden;
+}
 :root{
     --bs-danger-rgb: #FF0000;
 }
@@ -60,6 +63,27 @@
 
     background-color: black;
 }
+
+.Sora {
+  font-family: Sora-SemiBold !important;
+}
+
+.Sorabold {
+  font-family: Sora-Bold !important;
+}
+
+.CalafatiPro {
+  font-family: CalafatiPro-Light !important;
+}
+
+.Lucida {
+  font-family: "Lucida Handwriting" !important;
+}
+
+.Regular {
+  font-family: Sora-Regular !important;
+}
+
 .top-50{
     top: 50px !important;
 }
@@ -169,6 +193,9 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  .fs-27{
+   font-size: 27.91px;
+  }
 }
 @media screen and (max-width: 992px) {
     .top-md-140{
@@ -214,7 +241,7 @@
         font-size: 25px !important;
       }
       .fs-sm-23{
-        font-size: 23px;
+        font-size: 45px;
       }
       .wh-300{
         width: 300px;
@@ -258,14 +285,20 @@
         width: 150px;
         height: 150px;
     }
-
+    .fs-sm-12{
+      font-size: 12px;
+    }
+    .sm-ragular{
+      font-family: Sora-Regular !important;
+      line-height: 25px;
+    }
     .w-md-366{
         width: 200px;
       }
       .wh-sm-200{
         width: 190px !important;
         height: 200px !important;
-        top: 260px !important;
+        top: 220px !important;
       }
       .wh-sm-100{
         width: 150px !important; 
@@ -292,35 +325,63 @@
         width: 35px !important;
         padding-left: 5px;
       }
-      .sm-font-Lucida{
-        font-family: Lucida  Handwriting !important;
-      }
+    
       .max-w-md-775{
         width: 350px !important;
         margin-left: 20px !important;
     }
+    
 }
 @media screen and (max-width:500px) {
   .fs-76-20{
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
   .left-76-20{
     position: relative;
-    left: -25px;
+    left: -18px;
    text-wrap: nowrap !important;
   }
   .fs-sm-30{
     font-size: 25px !important ;
   }
+  .left-400-20{
+    left: -20px;
+    position: relative;
+  }
+  .fs-400-18{
+    font-size: 24px;
+  }
+  .fs-27{
+    font-size: 20px !important;
+  }
+  .fs-380-20{
+    font-size: 20px !important;
+  }
+  .fs-380-18{
+    font-size: 17px !important;
+  }
+  .right-500-10{
+    right: 15px !important;
+    position: relative;
+  }
+  .left-400-10{
+    position: relative;
+    left: -15px !important;
+  }
 }
 @media screen and (max-width:400px) {
-.fs-380-18{
-  font-size: 17px !important;
+
+.fs-400-18{
+  font-size: 24px;
+}
+.left-400-10{
+  position: relative;
+  left: -10px !important;
+}
+.ps-400-10{
+  padding-left: 20px !important;
 }
 
-.fs-380-20{
-  font-size: 20px !important;
-}
 .fs-380-25{
   font-size: 25px;
   width: 170px;
@@ -337,6 +398,9 @@
  .top-400-200{
   top: 220px !important;
  }
+ .sm-font-Lucida{
+  font-family: "Lucida Handwriting" !important;
+}
 }
 .Sherika{
     font-family: 'Sherika' !important;
@@ -379,24 +443,4 @@
 @font-face {
   font-family: Sora-Regular;
   src: url("fonts/Sora-Regular.ttf");
-}
-
-.Sora {
-  font-family: Sora-SemiBold !important;
-}
-
-.Sorabold {
-  font-family: Sora-Bold !important;
-}
-
-.CalafatiPro {
-  font-family: CalafatiPro-Light !important;
-}
-
-.Lucida {
-  font-family: "Lucida Handwriting" !important;
-}
-
-.Regular {
-  font-family: Sora-Regular !important;
 }
